@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    margin: 0;
+}
+
+.header {
+    background-color: #2563eb;
+    color: white;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}
+
+.main-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.skills-grid span {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}
+
+.skill-html { background-color: #dbeafe; color: #1e40af; }
+.skill-css { background-color: #d1fae5; color: #065f46; }
+.skill-js { background-color: #ede9fe; color: #5b21b6; }
+.skill-python { background-color: #fef3c7; color: #78350f; }
+.skill-git { background-color: #e5e7eb; color: #1f2937; }
+.skill-design { background-color: #fbcfe8; color: #9d174d; }
+
+.projects-list {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+}
+
+.projects-list li {
+    margin-bottom: 0.5rem;
+}
+
+.projects-list a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.projects-list a:hover {
+    text-decoration: underline;
+}
+
+.experience-list div {
+    margin-bottom: 1rem;
+}
+
+.experience-list h3 {
+    font-weight: 600;
+}
+
+.contact-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-links a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #111827;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
